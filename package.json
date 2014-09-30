@@ -1,0 +1,37 @@
+{
+  "name": "rando-revisit-service",
+  "version": "1.0.0",
+  "description": "take a revisit.link payload and run it through a random service",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/flet/rando-revisit-service"
+  },
+  "keywords": [
+    "revisit",
+    "random",
+    "service",
+    "revisit.link"
+  ],
+  "author": "Dan Flettre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flet/rando-revisit-service/issues"
+  },
+  "homepage": "https://github.com/flet/rando-revisit-service",
+  "dependencies": {
+    "data-uri-to-buffer": "0.0.3",
+    "random-revisitor": "^1.0.0",
+    "request": "^2.44.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chai-interface": "^1.1.0",
+    "mocha": "^1.21.4",
+    "require-subvert": "^0.1.0",
+    "sinon": "^1.10.3"
+  }
+}
